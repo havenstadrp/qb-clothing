@@ -140,7 +140,16 @@ Config.WomanPlayerModels = {
     's_f_y_sweatshop_01',
     'ig_paige',
     'a_f_y_femaleagent',
-    'a_f_y_hippie_01'
+    'a_f_y_hippie_01',
+    'CSB_Mimi',
+    'IG_Sessanta',
+    'S_F_M_Autoshop_01',
+    'S_F_M_RetailStaff_01',
+    'a_f_y_studioparty_01',
+    'a_f_y_studioparty_02',
+    'csb_imani',
+    's_f_m_studioassist_01',
+    'A_F_Y_CarClub_01',
 }
     
 Config.ManPlayerModels = {
@@ -501,6 +510,41 @@ Config.ManPlayerModels = {
     'tony',
     'g_m_m_chigoon_02_m',
 	'a_m_o_acult_01',
+    'A_M_Y_CarClub_01',
+    'A_M_Y_TattooCust_01',
+    'CSB_AviSchwartzman_02',
+    'CSB_DrugDealer',
+    'CSB_Hao_02',
+    'CSB_Moodyman_02',
+    'G_M_M_Prisoners_01',
+    'G_M_M_Slasher_01',
+    'IG_Benny_02',
+    'IG_LilDee',
+    'S_M_M_Autoshop_03',
+    'S_M_M_RaceOrg_01',
+    'S_M_M_Tattoo_01',
+    'a_m_m_studioparty_01',
+    'a_m_y_studioparty_01',
+    'csb_ary_02',
+    'csb_ballas_leader',
+    'csb_billionaire',
+    'csb_golfer_a',
+    'csb_golfer_b',
+    'csb_jio_02',
+    'csb_johnny_guns',
+    'csb_mjo_02',
+    'csb_musician_00',
+    'csb_party_promo',
+    'csb_req_officer',
+    'csb_security_a',
+    'csb_vagos_leader',
+    'csb_vernon',
+    'g_m_m_goons_01',
+    'ig_vincent_3',
+    's_m_m_highsec_05',
+    's_m_m_studioassist_02',
+    's_m_m_studioprod_01',
+    's_m_m_studiosoueng_02',
 }
 Config.LoadedManModels = {}
 Config.LoadedWomanModels = {}
@@ -530,12 +574,12 @@ Config.Stores = {
 }
 
 Config.ClothingRooms = {
-    [1] = {requiredJob = "police", coords = vector3(454.43, -988.85, 30.69), cameraLocation = vector4(454.42, -990.52, 30.69, 358.48)},
+    [1] = {requiredJob = "police", coords = vector3(461.7332, -999.041, 30.689), cameraLocation = vector4(454.42, -990.52, 30.69, 358.48)}, -- MRPD
     [2] = {requiredJob = "ambulance", coords = vector3(318.15, -599.35, 43.29), cameraLocation = vector4(318.15, -599.35, 43.29, 332.09)}, -- Right double door in Hospital Map that is on QBCore GitHub
-    [3] = {requiredJob = "police", coords = vector3(314.76, 671.78, 14.73), cameraLocation = vector4(317.62,  671.86,  14.73,  91.53)},
+    [3] = {requiredJob = "police", coords = vector3(1840.187, 3680.082, 34.189), cameraLocation = vector4(317.62,  671.86,  14.73,  91.53)},
     [4] = {requiredJob = "ambulance", coords = vector3(338.70, 659.61, 14.71), cameraLocation = vector4(339.27,  661.63,  14.71,  315.5)},    
     [5] = {requiredJob = "ambulance", coords = vector3(-1098.45, 1751.71, 23.35), cameraLocation = vector4(-1097.15, 1750.19,  23.35, 38.70)},    
-    [6] = {requiredJob = "police", coords = vector3(-77.59, -129.17, 5.03), cameraLocation = vector4(-80.36,  -130.76,  5.03,  300.44)},
+    [6] = {requiredJob = "police", coords = vector3(-439.366, 6010.814, 36.995), cameraLocation = vector4(-80.36,  -130.76,  5.03,  300.44)}, -- Paletto
 }
 
 Config.Outfits = {
